@@ -4,5 +4,7 @@ case elements
 when 1 
   array.join 
   when 2 
-    array.join("and")
+    array.join(" and ")
+  else 
+    array.join("," + " and ")
 end
