@@ -6,5 +6,6 @@ when 1
   when 2 
     array.join(" and ")
   else 
+    array[-1]
     array.join
 end
